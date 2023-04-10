@@ -116,7 +116,7 @@ async function createCardTile(cardEventData) {
         y : cardEventData.y - height / 2,
         width : width,
         height : height,
-        texture : { src: card.currentFace?.img || card.back.img },
+        texture : { src: card.back.img },
         hidden : false,
         flags : {
             "monks-active-tiles" : monkFlags,
