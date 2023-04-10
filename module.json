@@ -1,67 +1,67 @@
 {
-  "name": "card-tiles",
-  "title": "Card Tiles",
-  "description": "Makes use of Monk's Active Tiles to create an interactable Card tile from your Card collections.",
-  "version": "0.0.2",
-  "library": false,
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "10.291",
-  "authors": [
-    {
-      "name": "Alessio Giuseppe Cali'",
-      "url": "https://github.com/alessiocali/"
-    },
-    {
-      "name": "Kirwiisp",
-      "url": "https://github.com/Kirwiisp"
-    },
-    { 
-      "name": "BrotherSharper",
-      "url": "https://github.com/BrotherSharper"
-    },
-    {
-      "name": "SalieriC",
-      "url": "https://github.com/SalieriC"
-    }
-  ],
-  "dependencies": [
-    {
-      "name": "monks-active-tiles",
-      "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json"
-    },
-    {
-      "name": "warpgate",
-      "manifest": "https://github.com/trioderegion/warpgate/releases/latest/download/module.json"
-    }
-  ],
-  "esmodules": [
-    "./scripts/card-tiles.js",
-    "./scripts/settings.js",
-    "./scripts/constants.js"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "./languages/en.json"
-    },
-    {
-      "lang": "fr",
-      "name": "Français",
-      "path": "./languages/fr.json"
-    },
-    {
-      "lang": "it",
-      "name": "Italiano",
-      "path": "./languages/it.json"
-    },
-    {
-      "lang": "ja",
-      "name": "日本語",
-      "path": "./languages/ja.json"
-    }
-  ],
-  "url": "https://github.com/m0kka/card-tiles",
-  "manifest": "https://github.com/m0kka/card-tiles/releases/latest/download/module.json",
-  "download": "https://github.com/m0kka/card-tiles/releases/latest/download/module.zip"
+    "name": "card-tiles",
+    "title": "Card Tiles",
+    "description": "Makes use of Monk's Active Tiles to create an interactable Card tile from your Card collections.",
+    "version": "0.2.4",
+    "library": false,
+    "minimumCoreVersion": "10",
+    "compatibleCoreVersion": "10.291",
+    "authors": [
+        {
+            "name": "Alessio Giuseppe Cali'",
+            "url": "https://github.com/alessiocali/"
+        },
+        {
+            "name": "Kirwiisp",
+            "url": "https://github.com/Kirwiisp"
+        },
+        {
+            "name": "BrotherSharper",
+            "url": "https://github.com/BrotherSharper"
+        },
+        {
+            "name": "SalieriC",
+            "url": "https://github.com/SalieriC"
+        }
+    ],
+    "dependencies": [
+        {
+            "name": "monks-active-tiles",
+            "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json"
+        },
+        {
+            "name": "warpgate",
+            "manifest": "https://github.com/trioderegion/warpgate/releases/latest/download/module.json"
+        }
+    ],
+    "esmodules": [
+        "./scripts/card-tiles.js",
+        "./scripts/settings.js",
+        "./scripts/constants.js"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "./languages/en.json"
+        },
+        {
+            "lang": "fr",
+            "name": "Français",
+            "path": "./languages/fr.json"
+        },
+        {
+            "lang": "it",
+            "name": "Italiano",
+            "path": "./languages/it.json"
+        },
+        {
+            "lang": "ja",
+            "name": "日本語",
+            "path": "./languages/ja.json"
+        }
+    ],
+    "url": "https://github.com/m0kka/card-tiles",
+    "manifest": "https://github.com/m0kka/card-tiles/releases/latest/download/module.json",
+    "download": "https://github.com/m0kka/card-tiles/releases/download/0.2.4/module.zip"
 }
